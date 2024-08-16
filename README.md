@@ -39,8 +39,8 @@ inpath/
 ```
 
 - The `outpath` is simply the folder where you want the `qc_summary.html` to be written. More information about it is provided in the following section.
-- The `nb_decimals` argument specifies the number of digits . This can have great influence on the outlier detection. If 1e-10 precision is provided, a deviation of this amount can produce an outlying value. This parameter is tuned according to the precision you deem to be relevant. Default value is `nb_decimals=3`.
-- The `func` argument specifies an user-defined outlier detection function. More information below. Default is `func=None`.
+- The `nb_decimals` argument specifies the number of digits . This can have great influence on the outlier detection. For example, if 1e-10 precision is provided, a deviation of this amount can produce an outlying value. This parameter is tuned according to the precision you deem to be relevant. Default value is `nb_decimals=3`.
+- The `func` argument specifies an user-defined outlier detection function. More information in *Adding Your Own Outlier Detection Algorithm*. Default is `func=None`.
 
 ### Pipeline Output
 
@@ -62,7 +62,7 @@ def test(df):
 QC_Summary(inpath, path, func=test).create_summary()
 ```
 
-The output can be found in the `Example` folder under the name `qc_summary_func`. You may notice that the whole summary now displays this function's results, and that these results are rather close to that of the Z-Score function. That is because `func` is fed scaled and centered data using robust estimators and therefore acts like a Z-Score function. You may if course implement more complex functions, as is done with the Local Outlier Factor from scikit-learn in `/src/OD_functions.py`.
+The output can be found in the `Example` folder under the name `qc_summary_func`. You may notice that the whole summary now displays this function's results, and that these results are rather close to that of the Z-Score function. That is because `func` is fed scaled and centered data using robust estimators and therefore acts like a Z-Score function. You may of course implement more complex functions, as is done with the Local Outlier Factor from scikit-learn in `/src/OD_functions.py`.
 
 ### Estimating The Outlier Detection Algorithms' Performances
 
