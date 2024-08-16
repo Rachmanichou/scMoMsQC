@@ -110,6 +110,10 @@ performances done!
 
 The pipeline runs on Python >= 3.9 and uses the matching distributions of numpy, pandas, scikit-learn, statsmodels, plotly and yattag.
 
+## Acknowledgements
+
+This pipeline was realized under the direction of Dr. Vikas Bansal and Dr. Mohammed Dehestani in the group Biomedical Datascience at the Deutsches Zentrum für Neurodegenerative Erkrankungen (DZNE) in Tübingen.
+
 ## Bibliography
 
 [^1]: [M. Daszykowski, K. Kaczmarek, Y. Vander Heyden, B. Walczak, Robust statistics in data analysis — A review: Basic concepts, Chemometrics and Intelligent Laboratory Systems, Volume 85, Issue 2, 2007, Pages 203-219, ISSN 0169-7439, https://doi.org/10.1016/j.chemolab.2006.06.016.](https://www.sciencedirect.com/science/article/pii/S0169743906001493)
@@ -123,8 +127,3 @@ The pipeline runs on Python >= 3.9 and uses the matching distributions of numpy,
 [^8]: Scikit-learn: Machine Learning in Python, Fabian Pedregosa, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau, Matthieu Brucher, Matthieu Perrot, Édouard Duchesnay; 12(85):2825−2830, 2011.
 [^9]: Plotly Technologies Inc. Collaborative data science. Montréal, QC, 2015. https://plot.ly.
 [^10]: [Yattag, LeForestier](https://github.com/leforestier/yattag)
-
-## Acknowledgements
-
-This pipeline was realized under the direction of Dr. Vikas Bansal and Dr. Mohammed Dehestani in the group Biomedical Datascience at the Deutsches Zentrum für Neurodegenerative Erkrankungen (DZNE) in Tübingen.
-# scMoMsQC
