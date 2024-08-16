@@ -1,4 +1,4 @@
-[scMoMsQC logo](/image/scMoMsQC.png)
+![scMoMsQC logo](/image/scMoMsQC.png)
 
 ## Introduction
 
