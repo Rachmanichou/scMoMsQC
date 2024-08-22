@@ -1,8 +1,10 @@
+#single-cell Multiomics Multisample Quality Control
+
 ![scMoMsQC logo](/image/scMoMsQC.png)
 
 ## Introduction
 
-**scMoMsQC** or <ins>s</ins>ingle-<ins>c</ins>ell <ins>M</ins>ulti<ins>o</ins>me <ins>M</ins>ulti<ins>s</ins>ample <ins>Q</ins>uality <ins>C</ins>ontrol is a Python tool for controlling the quality of single cell Multiomics and RNAseq using QC Metrics. It takes multiple multiomics summary files and returns an HTML file with analysis and visualization tools of the samples' quality.
+**scMoMsQC** or <ins>s</ins>ingle-<ins>c</ins>ell <ins>M</ins>ulti<ins>o</ins>mics <ins>M</ins>ulti<ins>s</ins>ample <ins>Q</ins>uality <ins>C</ins>ontrol is a Python tool for controlling the quality of single cell Multiomics and RNAseq using QC Metrics. It takes multiple multiomics summary files and returns an HTML file with analysis and visualization tools of the samples' quality.
 
 ## User Guide
 
