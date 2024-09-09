@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 64.0"]
+requires = ["setuptools>=64.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -19,6 +19,7 @@ authors = [
 ]
 description = "A Python pipeline for quality control analysis and outlier detection in multisample single-cell multiomics and RNAseq"
 readme = "README.md"
+license = {file = "LICENSE/MIT License"}
 keywords = ["RNA-seq", "QC"]
 classifiers = [
   "Development Status :: 4 - Beta",
