@@ -8,7 +8,7 @@ import time
 from statsmodels.robust.scale import qn_scale
 from sklearn.neighbors import LocalOutlierFactor
 
-from OD_functions import zscore, LOF, dixon_q_test
+from .OD_functions import zscore, LOF, dixon_q_test
 
 class Metrics_Matrices:
     

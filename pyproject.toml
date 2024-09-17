@@ -4,7 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scMoMsQC"
-version = "2024.08.16" # c7df84ee9c983049e6e73a02938e1112ad16db0a
+version = "1.0.0"
+description = "A Python pipeline for quality control analysis and outlier detection in multisample single-cell multiomics and RNAseq"
+authors = [
+  {name = "benjamin lelouch", email = "101339977+Rachmanichou@users.noreply.github.com"},
+]
+
 dependencies = [
   "numpy",
   "pandas",
@@ -14,10 +19,7 @@ dependencies = [
   "yattag",
 ]
 requires-python = ">=3.8"
-authors = [
-  {name = "https://github.com/Rachmanichou", email = "101339977+Rachmanichou@users.noreply.github.com"},
-]
-description = "A Python pipeline for quality control analysis and outlier detection in multisample single-cell multiomics and RNAseq"
+
 readme = "README.md"
 license = {file = "LICENSE/MIT License"}
 keywords = ["RNA-seq", "QC"]

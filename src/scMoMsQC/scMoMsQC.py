@@ -1,6 +1,6 @@
-from Metrics_Matrices import Metrics_Matrices
-from Summary_Figures import Summary_Figures
-from HTML_Generator import HTML_Generator
+from .Metrics_Matrices import Metrics_Matrices
+from .Summary_Figures import Summary_Figures
+from .HTML_Generator import HTML_Generator
 
 
 class QC_Summary:
