@@ -1,6 +1,6 @@
 from yattag import Doc
 import pandas as pd
-from texts import od_script, intro_text, zscore_text, dixon_text, LOF_text, OD_note_text, qc_text, violinplot_text, pca_text, clustermap_text
+from .texts import od_script, intro_text, zscore_text, dixon_text, LOF_text, OD_note_text, qc_text, violinplot_text, pca_text, clustermap_text
 
 class HTML_Generator:
         

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scMoMsQC"
+version = "1.0.0"
+description = "A Python pipeline for quality control analysis and outlier detection in multisample single-cell multiomics and RNAseq"
+authors = [
+  {name = "benjamin lelouch", email = "101339977+Rachmanichou@users.noreply.github.com"},
+]
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "plotly",
+  "scikit-learn>=0.24.0", # `np.float` was a deprecated alias for the builtin `float`, in sklearn\linear_model\_least_angle.py
+  "statsmodels>=0.12.0", # ImportError: cannot import name 'qn_scale' from 'statsmodels.robust.scale'
+  "yattag",
+]
+requires-python = ">=3.8"
+
+readme = "README.md"
+license = {file = "LICENSE/MIT License"}
+keywords = ["RNA-seq", "QC"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+Homepage = "https://github.com/Rachmanichou/scMoMsQC"
+Repository = "https://github.com/Rachmanichou/scMoMsQC.git"
+"Bug Tracker" = "https://github.com/Rachmanichou/scMoMsQC/issues"
